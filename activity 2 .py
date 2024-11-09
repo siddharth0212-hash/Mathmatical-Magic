@@ -11,4 +11,4 @@ def print_factors(number):
 number = int(input("Enter your number to find it's factors: "))
 
 # Calling our function
-print_factors(number)
+print_factors(number) 
