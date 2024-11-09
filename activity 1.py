@@ -12,7 +12,7 @@ resultNumber = 0
 #Find the sum of the a^digits of each digit
 temp = number
 while temp > 0:
-    digit = temp % 10
+    digits = temp % 10
     resultNumber += digit ** digits
     temp //= 10
 
